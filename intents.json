@@ -1,0 +1,335 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day", "Hey there", "Greetings"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Good to See you again",
+        "Hi, what can I do for you?",
+        "Hi, how can I help?","Hello! How can I assist you today?", "Hi! What can I help you with?", "Greetings! How may I be of service?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Farewell", "See you later"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.","Goodbye! If you have more questions, feel free to ask.", "Farewell! Come back anytime.", "See you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","You're welcome! If you need further assistance, feel free to ask.", "No problem! Let me know if there's anything else I can help with."]
+    },
+    {
+      "tag": "study_materials",
+      "patterns": ["Where can I find study materials?", "Study resources", "Books for learning"],
+      "responses": ["You can find study materials at the local library or community center.", "Online platforms like Khan Academy offer free study resources."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["Tell me about available courses", "What courses do you offer?", "Course catalog"],
+      "responses": ["We offer a variety of courses in subjects like Mathematics, Science, Literature, and more. Would you like more details about a specific course?"]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": ["How can I enroll in a course?", "Enrollment process", "Register for a course"],
+      "responses": ["To enroll in a course, you can visit our website and follow the registration instructions. If you need assistance, I can guide you through the process."]
+    },
+    {
+      "tag": "resources",
+      "patterns": ["What educational resources are available?", "Study materials", "Learning resources"],
+      "responses": ["We provide a range of educational resources, including textbooks, online materials, and interactive tutorials. Is there a specific resource you're looking for?"]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Tell me about scholarships", "Available scholarships", "How can I apply for a scholarship?"],
+      "responses": ["We have various scholarships available for students. To learn more about eligibility and the application process, visit our scholarship page on the website."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["I need support", "Help me with a problem", "Technical assistance"],
+      "responses": ["I'm here to help! Please describe the issue you're facing, and I'll do my best to assist you."]
+    },
+    {
+      "tag": "Current_and_electricity",
+      "patterns": ["Tell me about current and electricity", "Introduction to current and electricity", "Class 10 physics electricity"],
+      "responses": [
+        "Current and electricity are fundamental concepts in physics.",
+        "Electric current is the flow of electric charge through a conductor.",
+        "It is a Class 10 physics chapter, it cover topics like electric circuits, voltage, resistance, and Ohms Law."
+      ]
+    },
+    {
+      "tag": "electric_current",
+      "patterns": ["What is electric current?", "Define electric current", "How does electric current flow?", "Electric current denoted by"],
+      "responses": [
+        "Electric current is the flow of electric charge, typically carried by moving electrons through a conductor.",
+        "By convention, electric current flows in the opposite direction to the movement of electrons.",
+        "In equations, electric current is denoted by the letter 'I'."
+      ]
+    },
+    {
+      "tag": "electric_circuit",
+      "patterns": ["Explain electric circuits", "What is an electric circuit?", "Overview of circuits"],
+      "responses": [
+        "An electric circuit is a continuous and closed path that allows the flow of electric current.",
+        "Circuits can contain various components like resistors, capacitors, and switches."
+      ]
+    },
+    {
+      "tag": "electric_potential",
+      "patterns": ["Define electric potential", "What is electric potential?", "Electric potential difference"],
+      "responses": [
+        "Electric potential is the amount of electric potential energy at a point.",
+        "Electric potential difference is the difference in electric potential energy between two points in an electric circuit."
+      ]
+    },
+    {
+      "tag": "ohms_law",
+      "patterns": ["Explain Ohms Law", "What is Ohms Law?", "Relation between potential difference and current"],
+      "responses": [
+        "Ohms Law states that the potential difference between two points is directly proportional to the electric current, at a constant temperature.",
+        "Mathematically, Ohm's Law is expressed as V = IR, where V is voltage, I is current, and R is resistance."
+      ]
+    },
+    {
+      "tag": "resistance",
+      "patterns": ["Define resistance", "Factors affecting resistance", "Resistance in conductors"],
+      "responses": [
+        "Resistance is the property of a conductor that resists the flow of electric current through it.",
+        "Factors affecting resistance include the nature of the material, length of the conductor, and the area of cross-section."
+      ]
+    },
+    {
+      "tag": "resistivity",
+      "patterns": ["Explain resistivity", "What is electrical resistivity?", "Properties of materials"],
+      "responses": [
+        "Resistivity is the inherent property of a material to resist the flow of electric current.",
+        "It depends on the nature of the material and is represented by the Greek letter rho."
+      ]
+    },
+    {
+      "tag": "combination_of_resistors",
+      "patterns": ["Describe combination of resistors", "Types of resistor combinations", "Series and parallel combination"],
+      "responses": [
+        "Resistors can be connected in series or parallel to create different combinations.",
+        "In a series combination, the total resistance is the sum of individual resistances, while in parallel, it follows a reciprocal formula."
+      ]
+    },
+    {
+      "tag": "heating_effect",
+      "patterns": ["Explain heating effect of electric current", "Joules law of heating", "Applications of heating effect"],
+      "responses": [
+        "When electric current is supplied to a resistor, the energy is dissipated as heat, known as the heating effect of electric current.",
+        "Joule's law of heating states that heat produced is proportional to the square of the current, resistance, and time."
+      ]
+    },
+    {
+      "tag": "electric_power",
+      "patterns": ["Define electric power", "Calculation of electric power", "Units of electric power"],
+      "responses": [
+        "Electric power is the rate at which electric energy is consumed.",
+        "It is calculated as the product of voltage and current P = VI and measured in watts."
+      ]
+    },
+    {
+      "tag": "electric_energy",
+      "patterns": ["What is electric energy?", "How is electric energy measured?", "Units of electric energy"],
+      "responses": [
+        "Electric energy is the amount of work done to maintain the continuous flow of electric current in a circuit.",
+        "The unit of electric energy is the kilowatt-hour kWh."
+      ]
+    },
+    {
+      "tag": "conductor_vs_insulator",
+      "patterns": ["Difference between conductor and insulator", "Properties of conductors and insulators"],
+      "responses": [
+        "A conductor allows the flow of electrons and has many free electrons.",
+        "An insulator does not allow the flow of electrons and has fewer or no free electrons."
+      ]
+    },
+    {
+      "tag": "current_rating",
+      "patterns": ["What is current rating?", "Significance of current rating", "Protecting electric appliances"],
+      "responses": [
+        "Current rating is the maximum current an electric appliance can handle without damage.",
+        "It is crucial for protecting appliances from high voltage."
+      ]
+    },
+    {
+      "tag": "electric_bulb",
+      "patterns": ["How does an electric bulb work?", "Components of an electric bulb", "Tungsten filament"],
+      "responses": [
+        "An electric bulb works by heating the tungsten filament, which gives off light due to the heating effect of electricity.",
+        "The filament is usually made of tungsten with a high melting point."
+      ]
+    },
+    {
+      "tag": "electric_iron",
+      "patterns": ["Working principle of an electric iron", "Material of electric iron element", "Applications of electric iron"],
+      "responses": [
+        "The electric iron operates based on the heating effect of electricity, and its element is made of alloys with a high melting point.",
+        "It is commonly used for ironing clothes."
+      ]
+    },
+    {
+      "tag": "electric_heater",
+      "patterns": ["How does an electric heater work?", "Heating mechanism of electric heaters", "Applications of electric heaters"],
+      "responses": [
+        "Electric heaters work by converting electrical energy into heat, providing warmth in various applications.",
+        "They find use in space heating and other heating applications."
+      ]
+    },
+    {
+      "tag": "electric_geyser",
+      "patterns": ["Functioning of an electric geyser", "Heating water using electric geyser", "Domestic applications of electric geysers"],
+      "responses": [
+        "An electric geyser heats water using electricity, providing hot water for domestic purposes.",
+        "It is commonly used for bathing and other household needs."
+      ]
+    },
+    {
+      "tag": "electric_fuse",
+      "patterns": ["Role of an electric fuse", "Materials used in electric fuses", "Importance of using the right fuse"],
+      "responses": [
+        "An electric fuse protects appliances from high voltage by melting when the current exceeds the specified limit.",
+        "Common materials used in fuses include aluminum, copper, iron, and lead."
+      ]
+    },
+    {
+      "tag": "electric_power_unit",
+      "patterns": ["Understanding electric power unit", "Measuring electric power consumption", "Kilowatt-hour as a unit"],
+      "responses": [
+        "Electric power is measured in watts, and the unit of electric energy consumption is the kilowatt-hour.",
+        "This unit is widely used for billing and measuring electricity consumption."
+      ]
+    },
+    {
+      "tag": "series_parallel_resistors",
+      "patterns": ["Series and parallel combinations of resistors", "Equivalent resistance in series", "Equivalent resistance in parallel"],
+      "responses": [
+        "Resistors can be connected in series or parallel, affecting the total resistance of the circuit.",
+        "In a series combination, the total resistance is the sum of individual resistances. In parallel, it involves reciprocal values."
+      ]
+    },
+    {
+      "tag": "newton_laws",
+      "patterns": ["Newton's Laws of Motion", "First law of motion", "Second law of motion", "Third law of motion"],
+      "responses": [
+        "Newton's First Law states that an object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced external force.",
+        "Newton's Second Law relates the force applied to an object, its mass, and its acceleration through the equation F = ma.",
+        "Newton's Third Law states that for every action, there is an equal and opposite reaction."
+      ]
+    },
+    {
+      "tag": "photosynthesis",
+      "patterns": ["Photosynthesis process", "Importance of photosynthesis", "Chemical equation of photosynthesis"],
+      "responses": [
+        "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments.",
+        "It plays a crucial role in providing oxygen and energy-rich compounds for life on Earth. The chemical equation is 6CO2 + 6H2O + light energy → C6H12O6 + 6O2."
+      ]
+    },
+    {
+      "tag": "algebra",
+      "patterns": ["Basics of algebra", "Solving equations", "Introduction to variables and constants"],
+      "responses": [
+        "Algebra is a branch of mathematics dealing with symbols and the rules for manipulating those symbols. It includes variables, constants, and equations.",
+        "Solving equations involves isolating the variable, and algebraic expressions often use letters to represent numbers."
+      ]
+    },
+    {
+      "tag": "geometry",
+      "patterns": ["Introduction to geometry", "Types of angles", "Properties of geometric shapes"],
+      "responses": [
+        "Geometry is the branch of mathematics that deals with the properties, measurements, and relationships of points, lines, angles, surfaces, and solids.",
+        "Understanding different types of angles and properties of geometric shapes is fundamental to solving problems in geometry."
+      ]
+    },
+    {
+      "tag": "cell_structure",
+      "patterns": ["Cell structure and function", "Types of cells", "Importance of cells in living organisms"],
+      "responses": [
+        "Cells are the basic units of life, and each type of cell has a specific structure and function. The two main types are prokaryotic and eukaryotic cells.",
+        "Cells play a vital role in the functioning of living organisms, and understanding their structure helps in comprehending life processes."
+      ]
+    },
+    {
+      "tag": "fun_facts",
+      "patterns": ["Tell me a fun fact", "Interesting trivia", "Fascinating information"],
+      "responses": [
+        "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+        "The Eiffel Tower can be 15 cm taller during the summer. When a substance is heated up, its particles move more and it expands.",
+        "A group of flamingos is called a 'flamboyance.'"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I need inspiration", "Encouraging words"],
+      "responses": [
+        "Believe you can and you're halfway there. -Theodore Roosevelt",
+        "The only way to do great work is to love what you do. -Steve Jobs",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts. Winston Churchill"
+      ]
+    },
+    {
+      "tag": "practical_advice",
+      "patterns": ["Life advice", "Practical tips", "Words of wisdom"],
+      "responses": [
+        "Take one step at a time. Progress is progress, no matter how small.",
+        "Don't be afraid to ask for help when you need it. Everyone faces challenges.",
+        "Set achievable goals and celebrate your accomplishments, no matter how minor."
+      ]
+    },
+    {
+      "tag": "world_capitals",
+      "patterns": ["Capital cities quiz", "Tell me a country's capital", "World capitals"],
+      "responses": [
+        "The capital of France is Paris.",
+        "Canberra is the capital city of Australia.",
+        "Tokyo is the capital of Japan."
+      ]
+    },
+    {
+      "tag": "language_learning",
+      "patterns": ["Learn a new word", "Language tips", "Vocabulary building"],
+      "responses": [
+        "Today's word is 'serendipity,' which means finding something good without looking for it.",
+        "Try to use a new word you've learned in a sentence to reinforce your vocabulary.",
+        "Learning a new language opens doors to new cultures and perspectives."
+      ]
+    },
+    {
+      "tag": "chatbot_info",
+      "patterns": ["Tell me about the chatbot", "What can you do?", "Chatbot details","tell me about yourself","who are you?"],
+      "responses": [
+        "Hello! I'm your friendly educational chatbot designed to assist with various topics. I can help you with information on subjects like physics, mathematics, and more.Feel free to ask me questions about specific subjects, request fun facts, or even seek motivational quotes.If you ever get stuck or need assistance, just type help for guidance.Remember, I'm here to make learning fun and engaging for you!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the nurse need a red pen? In case she needed to draw blood.",
+        "What's the best thing about Switzerland? I don't know but the flag is a big plus.",
+        "Want to hear a construction joke? Oh never mind, I'm still working on that one.",
+        "Why don't scientists trust atoms? Because they make up everything."
+      ]
+    }
+  ]
+}
