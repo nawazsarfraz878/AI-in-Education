@@ -1,0 +1,1 @@
+This code is an implementation of a simple chatbot using PyTourch, which is a machine learning framework. The chatbot is trained using a neural network to classify user inputs into predefined intents and provide appropriate responses based on the detected intent. The intents.json file is the data that we will provide to our chatbot
